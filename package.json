@@ -1,14 +1,18 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Responsive portfolio",
   "main": "index.js",
+  "homepage": "https://mahesh006.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
-  "author": "",
+  "author": "mahesh",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^3.0.0",
     "node-sass": "^4.14.1"
   }
 }
+
